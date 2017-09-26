@@ -29,7 +29,20 @@ svg.selectAll('circle')
     .data(myArray)
     .enter()
     .append('circle')
-    .attr('cx', function(d){
-    
+    .attr('cx', function(data){
+        console.log(data.cx)
+        return data.cx;
+    })
 
-})
+    .attr('cy', function(d){
+        console.log(d.cy)
+        return d.cy
+    })
+
+    .attr('r', function(d){
+        return d.r
+    })
+
+    .attr('fill', function(d){
+        return d.color
+    });
