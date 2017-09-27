@@ -84,7 +84,7 @@ svg.selectAll('circle')
         return d.color
     });*/
 
-myArray = [{}, {}, {}, {}, {}];
+/*myArray = [{}, {}, {}, {}, {}];
 
 myArray.forEach(function(element, i){
   element.cx= i *100;
@@ -92,10 +92,32 @@ myArray.forEach(function(element, i){
   element.r=20
 });
 
+console.log(myArray);*/
+
+
+myArray = [];
+
+for( i =0; i < 100; i++){
+    var object = {cx: 400 * Math.random(), cy: 400 * Math.random(), r: 10};
+    myArray.push(object);
+}
+
 console.log(myArray);
 
 
-
-
-
-
+svg.selectAll('circle')
+    .data(myArray)
+    .enter()
+    .append('circle')
+    .attr('cx', function(data){
+        return data.cx;
+    })
+    .attr('cy', function(d){
+        return d.cy
+    })
+    .attr('r', function(d){
+        return d.r
+    })
+    .attr('fill', function(d){
+        return d.color
+    });
