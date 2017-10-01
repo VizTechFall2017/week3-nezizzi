@@ -8,10 +8,10 @@ d3.csv('./data.csv', function(data){
         .enter()
         .append('rect')
         .attr('x', function(d){
-            return d.x
+            return d.xrec
         })
         .attr('y', function(d){
-            return d.y
+            return d.yrec
         })
         .attr('height', function(d){
             return d.height
@@ -34,10 +34,10 @@ d3.csv('./data.csv', function(data){
         .enter()
         .append('rect')
         .attr('x', function(d){
-            return d.x
+            return d.xrec
         })
         .attr('y', function(d){
-            return d.y
+            return d.yrec
         })
         .attr('height', function(d){
             return d.width
@@ -60,10 +60,10 @@ d3.csv('./data.csv', function(data){
         .enter()
         .append('rect')
         .attr('x', function(d){
-            return d.y
+            return d.yrec
         })
         .attr('y', function(d){
-            return d.x
+            return d.xrec
         })
         .attr('height', function(d){
             return d.height
@@ -87,10 +87,10 @@ d3.csv('./data.csv', function(data){
         .enter()
         .append('rect')
         .attr('x', function(d){
-            return d.y
+            return d.yrec
         })
         .attr('y', function(d){
-            return d.x
+            return d.xrec
         })
         .attr('height', function(d){
             return d.width
