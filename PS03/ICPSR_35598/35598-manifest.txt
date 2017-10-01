@@ -1,0 +1,121 @@
+File Manifest for ICPSR 35598
+
+Jeffri, Joan, Adrian Schriel, and David Throsby. The aDvANCE Project: A
+Study of Career Transition for Professional Dancers [2003]. ICPSR35598-v1.
+Ann Arbor, MI: Inter-university Consortium for Political and Social
+Research [distributor], 2015-05-31. http://doi.org/10.3886/ICPSR35598.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    35598-descriptioncitation.pdf       -       -         -       2016-11-13  -
+
+    35598-related_literature.txt        -       -         -       daily       -
+
+    35598-manifest.txt                  -       -         -       daily       -
+
+    35598-Questionnaire.pdf             -       -         -       2015-05-31  dc96c94be7793ac49db7795d0b141a45
+
+    35598-Report.pdf                    -       -         -       2015-05-31  2c055bfc7924bb0a70fc3b84a6580a43
+
+
+DS0001 The aDvANCE Project [Australia]
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    35598-0001-Codebook.pdf             -       -         -       2015-05-31  c50674ca62f59e8f48689ce2fe1a245f
+
+    35598-0001-Data.dta                 -       251       429     2015-05-31  fc9d2672b0c83298d6e1e78bed15dfb6
+
+    35598-0001-Data.rda                 -       251       429     2015-05-31  2326a7c0b21631021a64a332ad8c4218
+
+    35598-0001-Data.sav                 -       251       429     2015-05-31  ed3c1ce33264514c136f94f71d46b71b
+
+    35598-0001-Data.stc                 -       251       429     2015-05-31  18e2d1e69a7827c4e2ab78371cd8ac2e
+
+    35598-0001-Data.tsv                 -       251       429     2015-05-31  08e669bde88f644b94096d740cfb3704
+
+    35598-0001-Data.txt                 1016    251       429     2015-05-31  6441d9224f30fd20e7a5916b28b2e872
+
+    35598-0001-Data.xlsx                -       251       429     2015-05-31  dca38debfe9d0b0bfc11444ed6e30c93
+
+    35598-0001-Setup.dct                -       -         -       2015-05-31  8141bf1043161091364dd7ed2b1ea8db
+
+    35598-0001-Setup.do                 -       -         -       2015-05-31  6e9392d3ee63f592b10a561d37043dbf
+
+    35598-0001-Setup.sas                -       -         -       2015-05-31  29e85d06256276deea3d1f7b64506f4b
+
+    35598-0001-Setup.sps                -       -         -       2015-05-31  0dde766a410bf82de97793b60de8f39e
+
+    35598-0001-Supplemental_syntax.do   -       -         -       2015-05-31  aaa958a2fbea49bbe6a163eb8d59afc7
+
+    35598-0001-Supplemental_syntax.sas  -       -         -       2015-05-31  1fb4e42a05269b722b0d0899a12828d6
+
+
+DS0002 The aDvANCE Project [Switzerland]
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    35598-0002-Codebook.pdf             -       -         -       2015-05-31  5ff92f1b3d1df2e1b4f64e16b025311b
+
+    35598-0002-Data.dta                 -       358       421     2015-05-31  c64a16b2b8e2e81ef285df5da66d4716
+
+    35598-0002-Data.rda                 -       358       421     2015-05-31  a2a5503b45e73bf897a54860664d6b9e
+
+    35598-0002-Data.sav                 -       358       421     2015-05-31  51f4e82d0ba950444f7385fd35fdbd94
+
+    35598-0002-Data.stc                 -       358       421     2015-05-31  8bbea43bc5a195b77ccfe14faf9737e8
+
+    35598-0002-Data.tsv                 -       358       421     2015-05-31  6e23ff413607eeb0b99df573f2d85721
+
+    35598-0002-Data.txt                 1201    358       421     2015-05-31  ff98b1ebcf69a48d3c75c87540f8e152
+
+    35598-0002-Data.xlsx                -       358       421     2015-05-31  da870db8e7649d678f79ed19a811b9c1
+
+    35598-0002-Setup.dct                -       -         -       2015-05-31  49189bf9c8905c54b248f22ce423f8c8
+
+    35598-0002-Setup.do                 -       -         -       2015-05-31  8fab3f9e738c6f58ac7af2dd2714a7bb
+
+    35598-0002-Setup.sas                -       -         -       2015-05-31  318772a2e1e7861829834fb8bb8964a7
+
+    35598-0002-Setup.sps                -       -         -       2015-05-31  42d007bdc8dc0dce9fadad11cb5b0994
+
+    35598-0002-Supplemental_syntax.do   -       -         -       2015-05-31  08cb0efa877abee6b0bb296bce3b43c5
+
+    35598-0002-Supplemental_syntax.sas  -       -         -       2015-05-31  6cf0f4e1c96059d8744278538ed79509
+
+
+DS0003 The aDvANCE Project [United States]
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    35598-0003-Codebook.pdf             -       -         -       2015-05-31  e61f1116c36c9c70c9d0a84102269f0e
+
+    35598-0003-Data.dta                 -       220       422     2015-05-31  08db7db0ee9e2929091576b5577bd08e
+
+    35598-0003-Data.rda                 -       220       422     2015-05-31  1798672f93b546e2457b6dd670302004
+
+    35598-0003-Data.sav                 -       220       422     2015-05-31  2632ee342376d16d49cade7aabec86d2
+
+    35598-0003-Data.stc                 -       220       422     2015-05-31  775d5390b7e5d4c79e9ba2e02bc96c99
+
+    35598-0003-Data.tsv                 -       220       422     2015-05-31  87916301cf9563c236c975b4b998ceb2
+
+    35598-0003-Data.txt                 1461    220       422     2015-05-31  9664d5d5be186292c02f1160b3c15b0a
+
+    35598-0003-Data.xlsx                -       220       422     2015-05-31  5a2a796ab2558fc8f73eb9b409a35043
+
+    35598-0003-Setup.dct                -       -         -       2015-05-31  047a8e85a8d05bf787f3e5c01ac0bc5c
+
+    35598-0003-Setup.do                 -       -         -       2015-05-31  ec046e66d4782de632c2551bee401cec
+
+    35598-0003-Setup.sas                -       -         -       2015-05-31  e0db89c3e8e417ac5a1d330afc5b5608
+
+    35598-0003-Setup.sps                -       -         -       2015-05-31  9d1aedbdb2cab584b0d71205ceaef8d8
+
