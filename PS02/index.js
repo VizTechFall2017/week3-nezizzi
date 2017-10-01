@@ -1,7 +1,7 @@
 var svg = d3.select('svg');
 
 d3.csv('./data.csv', function(data){
-    console.log(data);
+
 
     svg.selectAll('rect1')
         .data(data)
@@ -14,14 +14,101 @@ d3.csv('./data.csv', function(data){
             return d.y
         })
         .attr('height', function(d){
-            return d.y
+            return d.height
         })
         .attr('width', function(d){
-            return d.y
+            return d.width
+        })
+        .attr('stroke', function(d){
+            return d.stroke
+        })
+        .attr('stroke-width', function(d){
+            return d.strokeWidth
         })
         .attr('fill', function(d){
             return d.fill
         });
+
+    svg.selectAll('rect1')
+        .data(data)
+        .enter()
+        .append('rect')
+        .attr('x', function(d){
+            return d.x
+        })
+        .attr('y', function(d){
+            return d.y
+        })
+        .attr('height', function(d){
+            return d.width
+        })
+        .attr('width', function(d){
+            return d.height
+        })
+        .attr('stroke', function(d){
+            return d.stroke
+        })
+        .attr('stroke-width', function(d){
+            return d.strokeWidth
+        })
+        .attr('fill', function(d){
+            return d.fill
+        });
+
+    svg.selectAll('rect1')
+        .data(data)
+        .enter()
+        .append('rect')
+        .attr('x', function(d){
+            return d.y
+        })
+        .attr('y', function(d){
+            return d.x
+        })
+        .attr('height', function(d){
+            return d.height
+        })
+        .attr('width', function(d){
+            return d.width
+        })
+        .attr('stroke', function(d){
+            return d.stroke
+        })
+        .attr('stroke-width', function(d){
+            return d.strokeWidth
+        })
+        .attr('fill', function(d){
+            return d.fill
+        });
+
+
+    svg.selectAll('rect1')
+        .data(data)
+        .enter()
+        .append('rect')
+        .attr('x', function(d){
+            return d.y
+        })
+        .attr('y', function(d){
+            return d.x
+        })
+        .attr('height', function(d){
+            return d.width
+        })
+        .attr('width', function(d){
+            return d.height
+        })
+        .attr('stroke', function(d){
+            return d.stroke
+        })
+        .attr('stroke-width', function(d){
+            return d.strokeWidth
+        })
+        .attr('fill', function(d){
+            return d.fill
+        });
+
+
 
     svg.selectAll('circle1')
         .data(data)
