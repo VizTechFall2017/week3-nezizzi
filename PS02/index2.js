@@ -124,7 +124,13 @@ d3.csv('./data.csv', function(data){
             return d.r
         })
         .attr('fill', function(d){
+            return d.stroke
+        })
+        .attr('stroke', function(d){
             return d.fill
+          })
+        .attr('stroke-width', function(d) {
+            return d.strokeWidth
         });
 
     svg.selectAll('circle2')
@@ -141,8 +147,15 @@ d3.csv('./data.csv', function(data){
             return d.r
         })
         .attr('fill', function(d){
+            return d.stroke
+        })
+        .attr('stroke', function(d){
             return d.fill
+        })
+        .attr('stroke-width', function(d) {
+            return d.strokeWidth
         });
+
 
 
 
