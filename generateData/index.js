@@ -110,7 +110,7 @@ svg.selectAll('circle')
     .enter()
     .append('circle')
     .attr('cx', function(data){
-        return data.cx;
+        return data.cx
     })
     .attr('cy', function(d){
         return d.cy
