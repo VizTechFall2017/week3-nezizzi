@@ -1,6 +1,6 @@
 var svg = d3.select('svg');
 
-d3.csv('./Book1.csv', function(data) {
+d3.csv('./data.csv', function(data) {
 
     console.log(data);
 
