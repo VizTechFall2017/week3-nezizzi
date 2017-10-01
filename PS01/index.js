@@ -7,5 +7,22 @@ for ( i =0; i < 111; i++ ){
     randomArray.push(dizzy);
 }
 
-console.log(randomArray);
+
+svg.selectAll('line')
+    .data(randomArray)
+    .enter()
+    .append('line')
+    .attr('x1', function(d){
+        console.log(x1);
+        return d.x1
+    })
+    .attr('x2', function(d){
+        return d.x2
+    })
+    .attr('y1', function(d){
+        return d.y1
+    })
+    .attr('y2', function(d){
+        return d.y2
+    });
 
