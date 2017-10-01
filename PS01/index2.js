@@ -13,7 +13,6 @@ svg.selectAll('line')
     .enter()
     .append('line')
     .attr('x1', function(d){
-        console.log(x1);
         return d.x1
     })
     .attr('x2', function(d){
